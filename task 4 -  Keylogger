@@ -1,0 +1,19 @@
+# 🛡️ Keylogger using Python
+
+This is a simple **Keylogger** built using Python and the `pynput` library.  
+It records every keystroke typed on the keyboard — across any application — and logs it into a timestamped `.txt` file.
+
+## 📌 Features
+
+- Records all keystrokes (letters, numbers, special keys)
+- Saves logs with timestamp to a text file
+- Works in the background
+- Cross-platform (Windows, Linux, macOS)
+
+## 🚀 How to Run
+
+1. **Install dependencies**  
+   Make sure you have Python installed. Then run:
+
+   ```bash
+   pip install pynput
